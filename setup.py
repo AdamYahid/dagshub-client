@@ -31,7 +31,7 @@ install_requires = [
     "click>=8.0.4",
     "httpx~=0.23.0",
     "GitPython>=3.1.29",
-    "rich[jupyter]~=13.1.0",
+    "rich[jupyter]>12.0.0",
     # Need to keep dacite version in lockstep with voxel, otherwise stuff breaks on their end
     "dacite~=1.6.0",
     "tenacity~=8.2.2",
